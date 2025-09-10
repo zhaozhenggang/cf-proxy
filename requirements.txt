@@ -1,0 +1,25 @@
+# EPUB to HTML Converter with TTS - Dependencies
+
+# Core dependencies for EPUB processing
+# No additional Python packages are required as the converter uses only built-in libraries:
+# - zipfile (for EPUB extraction)
+# - xml.etree.ElementTree (for XML parsing)
+# - html (for HTML escaping)
+# - pathlib (for path handling)
+# - tempfile (for temporary directories)
+# - argparse (for command line interface)
+
+# Optional dependencies for enhanced functionality:
+# beautifulsoup4>=4.9.0  # For advanced HTML parsing (optional enhancement)
+# lxml>=4.6.0           # For faster XML processing (optional enhancement)
+# Pillow>=8.0.0         # For image processing if needed (optional enhancement)
+
+# Development dependencies (for testing and development):
+# pytest>=6.0.0         # For unit testing
+# black>=21.0.0         # For code formatting
+# flake8>=3.8.0         # For code linting
+
+# Note: This converter is designed to work with Python 3.6+ and uses only 
+# standard library modules to minimize dependencies and ensure compatibility.
+# The TTS functionality is implemented using the Web Speech API in browsers,
+# so no server-side TTS libraries are required.
